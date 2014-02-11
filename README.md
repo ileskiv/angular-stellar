@@ -119,7 +119,7 @@ You can have your implementation on your own.
 
 ## Contributing
 
-[![devDependency Status](https://david-dm.org/tomchentw/angular-stellar/dev-status.png?branch=master)](https://david-dm.org/tomchentw/angular-stellar#info=devDependencies)
+[![devDependency Status](https://david-dm.org/tomchentw/angular-stellar/dev-status.png?branch=master)](https://david-dm.org/tomchentw/angular-stellar#info=devDependencies) [![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/tomchentw/angular-stellar/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
 
 1. Fork it ( http://github.com/tomchentw/angular-stellar/fork )
 2. Create your feature branch (`git checkout -b my-new-feature`)
