@@ -1,3 +1,17 @@
+<a name="0.2.7"></a>
+### 0.2.7 (2014-02-11)
+
+
+#### Bug Fixes
+
+* **bower.json:** update dependencies and devDependencies ([4f2237756933db38d0cab0690dbbfcbc9627ecc1](git://github.com/tomchentw/angular-stellar.git/commit/4f2237756933db38d0cab0690dbbfcbc9627ecc1))
+
+
+#### Features
+
+* **gulpfile:** adjust for gulp 3.5.0 from tomchentw-boilerplate ([2d9d147f7a01add18bd3196fffd1b8321f72a4be](git://github.com/tomchentw/angular-stellar.git/commit/2d9d147f7a01add18bd3196fffd1b8321f72a4be))
+
+
 <a name="0.2.6"></a>
 ### 0.2.6 (2014-01-17)
 

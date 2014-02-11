@@ -1,6 +1,6 @@
 {
   "name": "angular-stellar",
-  "version": "0.2.6",
+  "version": "0.2.7",
   "description": "Stellar.js directives for AngularJS  ( without jQuery dependency )",
   "longDescription": "Rewrite of Stellar.js native AngularJS directives without jQuery dependency",
   "main": "angular-stellar.js",
@@ -35,8 +35,7 @@
     "url": "https://github.com/tomchentw/angular-stellar/issues"
   },
   "homepage": "https://github.com/tomchentw/angular-stellar",
-  "dependencies": {
-  },
+  "dependencies": {},
   "devDependencies": {
     "LiveScript": "~1.2.0",
     "event-stream": "~3.1.0",
