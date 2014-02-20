@@ -1,7 +1,7 @@
 # angular-stellar
 > Distributed via
 
-[![Gem Version](https://badge.fury.io/rb/angular-stellar.png)](http://badge.fury.io/rb/angular-stellar) [![Bower version](https://badge.fury.io/bo/angular-stellar.png)](http://badge.fury.io/bo/angular-stellar) [![NPM version](https://badge.fury.io/js/angular-stellar.png)](http://badge.fury.io/js/angular-stellar)
+[![Gem Version](https://badge.fury.io/rb/angular-stellar.png)](http://badge.fury.io/rb/angular-stellar) [![Bower version](https://badge.fury.io/bo/angular-stellar.png)](http://badge.fury.io/bo/angular-stellar)
 
 > Stellar.js directives for AngularJS  ( without jQuery dependency )
 
