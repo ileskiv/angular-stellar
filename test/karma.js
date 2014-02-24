@@ -14,8 +14,8 @@ module.exports = function(config) {
       'bower_components/angular/angular.js',
       'bower_components/angular-mocks/angular-mocks.js',
       'bower_components/angular-bootstrap/ui-bootstrap.js',
-      'src/angular-stellar.ls',
-      'src/angular-stellar.spec.ls'
+      'lib/assets/javascripts/angular-stellar.ls',
+      'test/assets/javascripts/angular-stellar.spec.ls'
     ],
 
     // use dots reporter, as travis terminal does not support escaping sequences
@@ -24,11 +24,11 @@ module.exports = function(config) {
     reporters: ['progress', 'coverage'],
 
     preprocessors: {
-      'src/*.ls': ['live'],
+      '**/*.ls': ['live'],
       // source files, that you wanna generate coverage for
       // do not include tests or libraries
       // (these files will be instrumented by Istanbul)
-      'src/angular-stellar.ls': ['coverage']
+      'lib/assets/javascripts/angular-stellar.ls': ['coverage']
     },
 
     // web server port
@@ -74,7 +74,7 @@ module.exports = function(config) {
      // optionally, configure the reporter
     coverageReporter: {
       type : 'lcovonly',
-      dir : 'coverage/'
+      dir : 'tmp/coverage'
     },
 
     plugins: [

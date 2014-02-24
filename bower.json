@@ -20,16 +20,13 @@
   "ignore": [
     "**/.*",
     "bower_components",
-    "example",
     "lib",
     "node_modules",
     "pkg",
-    "src",
+    "public",
     "test",
-    "tests",
     "tmp",
     "vendor",
-    "bower.json",
     "Gemfile",
     "gulpfile.ls",
     "package.json",
@@ -42,6 +39,9 @@
   "devDependencies": {
     "jquery": "~2.1.0",
     "angular-mocks": "~1.2.13",
-    "angular-bootstrap": "~0.10.0"
+    "angular-sanitize": "~1.2.13",
+    "angular-bootstrap": "~0.10.0",
+    "google-code-prettify": "~1.0.1",
+    "bootstrap-sass": "git://github.com/twbs/bootstrap-sass.git"
   }
 }

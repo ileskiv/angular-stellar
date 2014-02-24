@@ -54,7 +54,7 @@ var baseConfig = exports.config = {
   //
   // Spec patterns are relative to the location of this config.
   specs: [
-    '../src/angular-stellar.scenario.ls'
+    'assets/javascripts/angular-stellar.scenario.ls'
   ],
 
   // ----- Capabilities to be passed to the webdriver instance ----
