@@ -8,7 +8,7 @@
 
 [![Travis CI   ](http://img.shields.io/travis/tomchentw/angular-stellar/master.svg)             ](https://travis-ci.org/tomchentw/angular-stellar)
 [![Quality     ](http://img.shields.io/codeclimate/github/tomchentw/angular-stellar.svg)        ](https://codeclimate.com/github/tomchentw/angular-stellar)
-[![Coverage    ](http://img.shields.io/coveralls/tomchentw/angular-stellar.svg)                 ](https://codeclimate.com/github/tomchentw/angular-stellar)
+[![Coverage    ](http://img.shields.io/coveralls/tomchentw/angular-stellar.svg)                 ](https://coveralls.io/r/tomchentw/angular-stellar)
 [![Dependencies](http://img.shields.io/gemnasium/tomchentw/angular-stellar.svg)                 ](https://gemnasium.com/tomchentw/angular-stellar)
 
 
