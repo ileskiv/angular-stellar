@@ -1,13 +1,15 @@
 # angular-stellar
 > Distributed via
 
-![Version     ](http://img.shields.io/gem/v/tc-ng-boilerplate.svg)                               ](https://rubygems.org/gems/tc-ng-boilerplate)
+[![Version     ](http://img.shields.io/gem/v/angular-stellar.svg)                               ](https://rubygems.org/gems/angular-stellar)
+[![Bower version](https://badge.fury.io/bo/angular-stellar.png)](http://badge.fury.io/bo/angular-stellar)
+
 > Stellar.js directives for AngularJS  ( without jQuery dependency )
 
-[[![Travis CI   ](http://img.shields.io/travis/tomchentw/tc-ng-boilerplate/master.svg)             ](https://travis-ci.org/tomchentw/tc-ng-boilerplate)
-[![Quality     ](http://img.shields.io/codeclimate/github/tomchentw/tc-ng-boilerplate.svg)        ](https://codeclimate.com/github/tomchentw/tc-ng-boilerplate)
-[![Coverage    ](http://img.shields.io/coveralls/tomchentw/tc-ng-boilerplate.svg)                 ](https://codeclimate.com/github/tomchentw/tc-ng-boilerplate)
-[![Dependencies](http://img.shields.io/gemnasium/tomchentw/tc-ng-boilerplate.svg)                 ](https://gemnasium.com/tomchentw/tc-ng-boilerplate)
+[![Travis CI   ](http://img.shields.io/travis/tomchentw/angular-stellar/master.svg)             ](https://travis-ci.org/tomchentw/angular-stellar)
+[![Quality     ](http://img.shields.io/codeclimate/github/tomchentw/angular-stellar.svg)        ](https://codeclimate.com/github/tomchentw/angular-stellar)
+[![Coverage    ](http://img.shields.io/coveralls/tomchentw/angular-stellar.svg)                 ](https://codeclimate.com/github/tomchentw/angular-stellar)
+[![Dependencies](http://img.shields.io/gemnasium/tomchentw/angular-stellar.svg)                 ](https://gemnasium.com/tomchentw/angular-stellar)
 
 
 ## Project philosophy
@@ -122,7 +124,7 @@ You can have your implementation on your own.
 
 ## Contributing
 
-[![devDependency Status](https://david-dm.org/tomchentw/tc-ng-boilerplate/dev-status.svg?theme=shields.io)](https://david-dm.org/tomchentw/tc-ng-boilerplate#info=devDependencies)
+[![devDependency Status](https://david-dm.org/tomchentw/angular-stellar/dev-status.svg?theme=shields.io)](https://david-dm.org/tomchentw/angular-stellar#info=devDependencies)
 
 1. Fork it ( http://github.com/tomchentw/angular-stellar/fork )
 2. Create your feature branch (`git checkout -b my-new-feature`)
