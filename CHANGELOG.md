@@ -1,3 +1,12 @@
+<a name="0.2.11"></a>
+### 0.2.11 (2014-03-08)
+
+
+#### Bug Fixes
+
+* **stellar-ratio:** default to visible ([62073b0d](https://github.com/tomchentw/angular-stellar/commit/62073b0d982c368764b22b80e0615d470e470db9))
+
+
 <a name="0.2.10"></a>
 ### 0.2.10 (2014-03-08)
 

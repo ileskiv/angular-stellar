@@ -1,4 +1,4 @@
-/*! angular-stellar - v 0.2.10 - Sat Mar 08 2014 15:22:02 GMT+0800 (CST)
+/*! angular-stellar - v 0.2.11 - Sat Mar 08 2014 20:54:57 GMT+0800 (CST)
  * https://github.com/tomchentw/angular-stellar
  * Copyright (c) 2014 [tomchentw](https://github.com/tomchentw/);
  * Licensed [MIT](http://tomchentw.mit-license.org/)
@@ -350,7 +350,7 @@
         selfProperties.positionTop = selfPositions.top;
         selfProperties.positionLeft = selfPositions.left;
         $scope.$on('$destroy', stellarTarget('window').addCallbak(function(targetProps){
-          var newTop, newOffsetTop, newLeft, newOffsetLeft, targetScrollLeft, targetScrollTop, isVisibleHorizontal, isVisibleVertical, isHidden;
+          var newTop, newOffsetTop, newLeft, newOffsetLeft, isVisibleHorizontal, isVisibleVertical, targetScrollLeft, targetScrollTop, isHidden;
           newTop = selfProperties.positionTop;
           newOffsetTop = selfProperties.top;
           if (verticalScrolling) {
@@ -363,6 +363,7 @@
             newLeft += finalRatio * (targetProps.scrollLeft + horizontalOffset + targetProps.left + selfProperties.positionLeft - selfProperties.left + parentProperties.left);
             newOffsetLeft += newLeft - selfProperties.positionLeft;
           }
+          isVisibleHorizontal = isVisibleVertical = true;
           if (stellarConfig.hideDistantElements) {
             targetScrollLeft = isFixed
               ? 0
