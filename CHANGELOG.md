@@ -1,3 +1,12 @@
+<a name="0.2.12"></a>
+### 0.2.12 (2014-03-09)
+
+
+#### Bug Fixes
+
+* **README.md:** update coveralls link ([33466a7b](https://github.com/tomchentw/angular-stellar/commit/33466a7b3cf2a51785116bf8ef4c0c90bf70b241))
+
+
 <a name="0.2.11"></a>
 ### 0.2.11 (2014-03-08)
 
