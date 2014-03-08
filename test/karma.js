@@ -14,8 +14,8 @@ module.exports = function(config) {
       'bower_components/angular/angular.js',
       'bower_components/angular-mocks/angular-mocks.js',
       'bower_components/angular-bootstrap/ui-bootstrap.js',
-      'lib/assets/javascripts/angular-stellar.ls',
-      'test/assets/javascripts/angular-stellar.spec.ls'
+      'lib/javascripts/angular-stellar.ls',
+      'test/javascripts/angular-stellar.spec.ls'
     ],
 
     // use dots reporter, as travis terminal does not support escaping sequences
@@ -28,7 +28,7 @@ module.exports = function(config) {
       // source files, that you wanna generate coverage for
       // do not include tests or libraries
       // (these files will be instrumented by Istanbul)
-      'lib/assets/javascripts/angular-stellar.ls': ['coverage']
+      'lib/javascripts/angular-stellar.ls': ['coverage']
     },
 
     // web server port

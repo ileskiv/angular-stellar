@@ -29,6 +29,7 @@
     "vendor",
     "Gemfile",
     "gulpfile.ls",
+    "Makefile",
     "package.json",
     "Rakefile",
     "angular-stellar.gemspec"

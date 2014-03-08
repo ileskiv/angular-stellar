@@ -1,11 +1,14 @@
 # angular-stellar
 > Distributed via
 
-[![Gem Version](https://badge.fury.io/rb/angular-stellar.png)](http://badge.fury.io/rb/angular-stellar) [![Bower version](https://badge.fury.io/bo/angular-stellar.png)](http://badge.fury.io/bo/angular-stellar)
-
+![Version     ](http://img.shields.io/gem/v/tc-ng-boilerplate.svg)                               ](https://rubygems.org/gems/tc-ng-boilerplate)
 > Stellar.js directives for AngularJS  ( without jQuery dependency )
 
-[![Build Status](https://secure.travis-ci.org/tomchentw/angular-stellar.png)](http://travis-ci.org/tomchentw/angular-stellar) [![Coverage Status](https://coveralls.io/repos/tomchentw/angular-stellar/badge.png)](https://coveralls.io/r/tomchentw/angular-stellar) [![Code Climate](https://codeclimate.com/github/tomchentw/angular-stellar.png)](https://codeclimate.com/github/tomchentw/angular-stellar)  [![Dependency Status](https://gemnasium.com/tomchentw/angular-stellar.png)](https://gemnasium.com/tomchentw/angular-stellar)
+[[![Travis CI   ](http://img.shields.io/travis/tomchentw/tc-ng-boilerplate/master.svg)             ](https://travis-ci.org/tomchentw/tc-ng-boilerplate)
+[![Quality     ](http://img.shields.io/codeclimate/github/tomchentw/tc-ng-boilerplate.svg)        ](https://codeclimate.com/github/tomchentw/tc-ng-boilerplate)
+[![Coverage    ](http://img.shields.io/coveralls/tomchentw/tc-ng-boilerplate.svg)                 ](https://codeclimate.com/github/tomchentw/tc-ng-boilerplate)
+[![Dependencies](http://img.shields.io/gemnasium/tomchentw/tc-ng-boilerplate.svg)                 ](https://gemnasium.com/tomchentw/tc-ng-boilerplate)
+
 
 ## Project philosophy
 
@@ -119,7 +122,7 @@ You can have your implementation on your own.
 
 ## Contributing
 
-[![devDependency Status](https://david-dm.org/tomchentw/angular-stellar/dev-status.png?branch=master)](https://david-dm.org/tomchentw/angular-stellar#info=devDependencies) [![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/tomchentw/angular-stellar/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
+[![devDependency Status](https://david-dm.org/tomchentw/tc-ng-boilerplate/dev-status.svg?theme=shields.io)](https://david-dm.org/tomchentw/tc-ng-boilerplate#info=devDependencies)
 
 1. Fork it ( http://github.com/tomchentw/angular-stellar/fork )
 2. Create your feature branch (`git checkout -b my-new-feature`)
