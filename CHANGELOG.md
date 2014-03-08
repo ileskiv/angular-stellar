@@ -1,3 +1,12 @@
+<a name="0.2.10"></a>
+### 0.2.10 (2014-03-08)
+
+
+#### Bug Fixes
+
+* **stellar-background-ratio:** only change px values ([86d261ce](https://github.com/tomchentw/angular-stellar/commit/86d261ce7814c973db2fbd70041403b74a1d4f77))
+
+
 <a name="0.2.9"></a>
 ### 0.2.9 (2014-02-24)
 

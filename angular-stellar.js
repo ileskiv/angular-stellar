@@ -1,4 +1,4 @@
-/*! angular-stellar - v 0.2.9 - Mon Feb 24 2014 15:38:20 GMT+0800 (CST)
+/*! angular-stellar - v 0.2.10 - Sat Mar 08 2014 15:22:02 GMT+0800 (CST)
  * https://github.com/tomchentw/angular-stellar
  * Copyright (c) 2014 [tomchentw](https://github.com/tomchentw/);
  * Licensed [MIT](http://tomchentw.mit-license.org/)
@@ -244,11 +244,20 @@
     };
   });
   stellarBackgroundRatio = ['$position', '$css', 'stellarTarget'].concat(function($position, $css, stellarTarget){
-    var getBackgroundPosition, computeRatio;
+    var PX_MATCHER, getBackgroundPosition, computeRatio;
+    PX_MATCHER = /(\d+)px/;
     getBackgroundPosition = function($element){
-      var bgPos;
+      var bgPos, xMatch, yMatch;
       bgPos = $css($element, 'backgroundPosition').split(' ');
-      return [parseInt(bgPos[0], 10), parseInt(bgPos[1], 10)];
+      xMatch = bgPos[0].match(PX_MATCHER);
+      yMatch = bgPos[1].match(PX_MATCHER);
+      return [
+        xMatch && xMatch.length
+          ? parseInt(xMatch[1], 10)
+          : bgPos[0], yMatch && yMatch.length
+          ? parseInt(yMatch[1], 10)
+          : bgPos[1]
+      ];
     };
     computeRatio = function($element, $attrs){
       var stellarBackgroundRatio, fixedRatioOffset;
@@ -273,9 +282,13 @@
         selfProperties.bgLeft = selfBgPositions[0];
         $scope.$on('$destroy', stellarTarget('window').addCallbak(function(targetProps){
           var bgTop, bgLeft;
-          bgTop = finalRatio * (targetProps.scrollTop + verticalOffset - targetProps.top - selfProperties.top + parentProperties.top - selfProperties.bgTop);
-          bgLeft = finalRatio * (targetProps.scrollLeft + horizontalOffset - targetProps.left - selfProperties.left + parentProperties.left - selfProperties.bgLeft);
-          $element.css('background-position', bgLeft + "px " + bgTop + "px");
+          bgTop = !angular.isNumber(selfProperties.bgTop)
+            ? selfProperties.bgTop
+            : finalRatio * (targetProps.scrollTop + verticalOffset - targetProps.top - selfProperties.top + parentProperties.top - selfProperties.bgTop) + "px";
+          bgLeft = !angular.isNumber(selfProperties.bgLeft)
+            ? selfProperties.bgLeft
+            : finalRatio * (targetProps.scrollLeft + horizontalOffset - targetProps.left - selfProperties.left + parentProperties.left - selfProperties.bgLeft) + "px";
+          $element.css('background-position', bgLeft + " " + bgTop);
         }));
       }
     };
