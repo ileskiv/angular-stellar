@@ -329,9 +329,10 @@ const stellarRatio = <[
           parentProperties.left
         newOffsetLeft += newLeft - selfProperties.positionLeft
       #
+      isVisibleHorizontal = isVisibleVertical = true
       if stellarConfig.hideDistantElements
-        targetScrollLeft = if isFixed then 0 else targetProps.scrollLeft
-        targetScrollTop  = if isFixed then 0 else targetProps.scrollTop
+        const targetScrollLeft = if isFixed then 0 else targetProps.scrollLeft
+        const targetScrollTop  = if isFixed then 0 else targetProps.scrollTop
         #
         isVisibleHorizontal = !horizontalScrolling or do
           newOffsetLeft + selfProperties.width > targetScrollLeft and
