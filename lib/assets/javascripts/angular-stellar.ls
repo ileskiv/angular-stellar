@@ -192,9 +192,16 @@ const stellarBackgroundRatio = <[
        $position  $css  stellarTarget
 ]> ++ ($position, $css, stellarTarget) ->
 
+  const PX_MATCHER = /(\d+)px/
+
   const getBackgroundPosition = ($element) ->
     const bgPos = $css $element, 'backgroundPosition' .split ' '
-    [parseInt(bgPos.0, 10), parseInt(bgPos.1, 10)]
+    const xMatch = bgPos.0.match PX_MATCHER
+    const yMatch = bgPos.1.match PX_MATCHER
+    [
+      if xMatch and xMatch.length then parseInt xMatch.1, 10 else bgPos.0
+      if yMatch and yMatch.length then parseInt yMatch.1, 10 else bgPos.1
+    ]
 
   const computeRatio = ($element, $attrs) ->
     const stellarBackgroundRatio = $attrs.stellarBackgroundRatio or 1
@@ -221,23 +228,27 @@ const stellarBackgroundRatio = <[
     #
     stellarTarget 'window'
     .addCallbak !(targetProps) ->
-      const bgTop = finalRatio * do
+      const bgTop = unless angular.isNumber(selfProperties.bgTop) then selfProperties.bgTop
+      else "#{ finalRatio * do
         targetProps.scrollTop +
         verticalOffset -
         targetProps.top -
         selfProperties.top +
         parentProperties.top - 
         selfProperties.bgTop
+      }px"
       #
-      const bgLeft = finalRatio * do
+      const bgLeft = unless angular.isNumber(selfProperties.bgLeft) then selfProperties.bgLeft
+      else "#{ finalRatio * do
         targetProps.scrollLeft +
         horizontalOffset -
         targetProps.left -
         selfProperties.left +
         parentProperties.left -
         selfProperties.bgLeft
+        }px" 
       #
-      $element.css 'background-position', "#{ bgLeft }px #{ bgTop }px"
+      $element.css 'background-position', "#bgLeft #bgTop"
     #
     |> $scope.$on '$destroy' _
 
