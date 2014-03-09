@@ -1,21 +1,21 @@
 # angular-stellar
 > Distributed via
 
-[![Version     ](http://img.shields.io/gem/v/angular-stellar.svg)                               ](https://rubygems.org/gems/angular-stellar)
-[![Bower version](https://badge.fury.io/bo/angular-stellar.png)](http://badge.fury.io/bo/angular-stellar)
+[![Version     ](https://img.shields.io/gem/v/angular-stellar.svg)                               ](https://rubygems.org/gems/angular-stellar)
+[![Bower version](https://badge.fury.io/bo/angular-stellar.png)](https://badge.fury.io/bo/angular-stellar)
 
 > Stellar.js directives for AngularJS  ( without jQuery dependency )
 
-[![Travis CI   ](http://img.shields.io/travis/tomchentw/angular-stellar/master.svg)             ](https://travis-ci.org/tomchentw/angular-stellar)
-[![Quality     ](http://img.shields.io/codeclimate/github/tomchentw/angular-stellar.svg)        ](https://codeclimate.com/github/tomchentw/angular-stellar)
-[![Coverage    ](http://img.shields.io/coveralls/tomchentw/angular-stellar.svg)                 ](https://coveralls.io/r/tomchentw/angular-stellar)
-[![Dependencies](http://img.shields.io/gemnasium/tomchentw/angular-stellar.svg)                 ](https://gemnasium.com/tomchentw/angular-stellar)
+[![Travis CI   ](https://img.shields.io/travis/tomchentw/angular-stellar/master.svg)             ](https://travis-ci.org/tomchentw/angular-stellar)
+[![Quality     ](https://img.shields.io/codeclimate/github/tomchentw/angular-stellar.svg)        ](https://codeclimate.com/github/tomchentw/angular-stellar)
+[![Coverage    ](https://img.shields.io/coveralls/tomchentw/angular-stellar.svg)                 ](https://coveralls.io/r/tomchentw/angular-stellar)
+[![Dependencies](https://img.shields.io/gemnasium/tomchentw/angular-stellar.svg)                 ](https://gemnasium.com/tomchentw/angular-stellar)
 
 
 ## Project philosophy
 
 ### Develop in LiveScript
-[LiveScript](http://livescript.net/) is a compile-to-js language, which provides us more robust way to write JavaScript.  
+[LiveScript](https://livescript.net/) is a compile-to-js language, which provides us more robust way to write JavaScript.  
 It also has great readibility and lots of syntax sugar just like you're writting python/ruby.
 
 ### Native, lightweight directives
@@ -126,7 +126,7 @@ You can have your implementation on your own.
 
 [![devDependency Status](https://david-dm.org/tomchentw/angular-stellar/dev-status.svg?theme=shields.io)](https://david-dm.org/tomchentw/angular-stellar#info=devDependencies)
 
-1. Fork it ( http://github.com/tomchentw/angular-stellar/fork )
+1. Fork it ( https://github.com/tomchentw/angular-stellar/fork )
 2. Create your feature branch (`git checkout -b my-new-feature`)
 3. Commit your changes (`git commit -am 'Add some feature'`)
 4. Push to the branch (`git push origin my-new-feature`)
