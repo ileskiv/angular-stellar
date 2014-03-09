@@ -15,7 +15,7 @@
 ## Project philosophy
 
 ### Develop in LiveScript
-[LiveScript](https://livescript.net/) is a compile-to-js language, which provides us more robust way to write JavaScript.  
+[LiveScript](http://livescript.net/) is a compile-to-js language, which provides us more robust way to write JavaScript.  
 It also has great readibility and lots of syntax sugar just like you're writting python/ruby.
 
 ### Native, lightweight directives
