@@ -1,4 +1,4 @@
-/*! angular-stellar - v 0.2.12 - Sun Mar 09 2014 03:03:16 GMT+0800 (CST)
+/*! angular-stellar - v 0.2.13 - Fri Mar 14 2014 13:11:28 GMT+0800 (CST)
  * https://github.com/tomchentw/angular-stellar
  * Copyright (c) 2014 [tomchentw](https://github.com/tomchentw/);
  * Licensed [MIT](http://tomchentw.mit-license.org/)

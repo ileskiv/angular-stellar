@@ -1,3 +1,12 @@
+<a name="0.2.13"></a>
+### 0.2.13 (2014-03-14)
+
+
+#### Features
+
+* **public:** add CNAME ([3a85e7b5](https://github.com/tomchentw/angular-stellar/commit/3a85e7b54a40a5d9651cdcba4f6a5125e23150cf))
+
+
 <a name="0.2.12"></a>
 ### 0.2.12 (2014-03-09)
 
