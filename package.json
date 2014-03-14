@@ -4,10 +4,6 @@
   "description": "Stellar.js directives for AngularJS  ( without jQuery dependency )",
   "longDescription": "Rewrite of Stellar.js native AngularJS directives without jQuery dependency",
   "main": "angular-stellar.js",
-  "scripts": {
-    "postinstall": "bower install",
-    "test": "make test"
-  },
   "repository": {
     "type": "git",
     "url": "https://github.com/tomchentw/angular-stellar"
