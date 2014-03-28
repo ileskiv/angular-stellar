@@ -192,7 +192,7 @@ const stellarBackgroundRatio = <[
        $position  $css  stellarTarget
 ]> ++ ($position, $css, stellarTarget) ->
 
-  const PX_MATCHER = /(\d+)px/
+  const PX_MATCHER = /(-?\d+)px/
 
   const getBackgroundPosition = ($element) ->
     const bgPos = $css $element, 'backgroundPosition' .split ' '
