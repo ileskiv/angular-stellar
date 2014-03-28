@@ -1,4 +1,4 @@
-/*! angular-stellar - v 0.2.13 - Fri Mar 14 2014 13:11:28 GMT+0800 (CST)
+/*! angular-stellar - v 0.2.14 - Fri Mar 28 2014 21:46:37 GMT+0800 (CST)
  * https://github.com/tomchentw/angular-stellar
  * Copyright (c) 2014 [tomchentw](https://github.com/tomchentw/);
  * Licensed [MIT](http://tomchentw.mit-license.org/)
@@ -245,7 +245,7 @@
   });
   stellarBackgroundRatio = ['$position', '$css', 'stellarTarget'].concat(function($position, $css, stellarTarget){
     var PX_MATCHER, getBackgroundPosition, computeRatio;
-    PX_MATCHER = /(\d+)px/;
+    PX_MATCHER = /(-?\d+)px/;
     getBackgroundPosition = function($element){
       var bgPos, xMatch, yMatch;
       bgPos = $css($element, 'backgroundPosition').split(' ');

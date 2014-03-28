@@ -1,3 +1,13 @@
+<a name="0.2.14"></a>
+### 0.2.14 (2014-03-28)
+
+
+#### Bug Fixes
+
+* **Makefile:** check TRAVIS defined ([b2831bcf](https://github.com/tomchentw/angular-stellar/commit/b2831bcf40f302fbe06f6f97d5c40331be2fb505))
+* **stellar-background-ratio:** PX_MATCHER support - ([7762f1e2](https://github.com/tomchentw/angular-stellar/commit/7762f1e22691dc2a3856bce84b184d2aeea47a7f))
+
+
 <a name="0.2.13"></a>
 ### 0.2.13 (2014-03-14)
 
