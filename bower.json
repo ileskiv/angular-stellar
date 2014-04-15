@@ -20,6 +20,7 @@
   "ignore": [
     "**/.*",
     "bower_components",
+    "client",
     "config",
     "lib",
     "node_modules",
@@ -41,11 +42,11 @@
     "angular": "~1.2.13"
   },
   "devDependencies": {
-    "jquery": "~2.1.0",
     "angular-mocks": "~1.2.13",
     "angular-sanitize": "~1.2.13",
     "angular-bootstrap": "~0.10.0",
-    "google-code-prettify": "~1.0.1",
+    "angular-ga": "~0.1.0",
+    "jquery": "~2.1.0",
     "twbs-bootstrap-sass": "~3.1.1"
   }
 }

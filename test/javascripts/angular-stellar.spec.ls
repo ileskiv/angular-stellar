@@ -1,4 +1,4 @@
-(...) <-! describe 'module angular.stellar'
+(...) <-! describe 'angular.stellar module'
 it 'should start test' !(...) ->
   expect true .toBeTruthy!
 

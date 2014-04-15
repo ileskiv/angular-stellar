@@ -1,6 +1,7 @@
-angular.module 'demo' <[
-  ngSanitize
+angular.module 'application' <[
   ui.bootstrap
+  ga
+  ngSanitize
   angular.stellar
 ]>
 .run <[ 

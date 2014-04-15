@@ -1,15 +1,15 @@
 # angular-stellar
 > Distributed via
 
-[![Version     ](https://img.shields.io/gem/v/angular-stellar.svg)                               ](https://rubygems.org/gems/angular-stellar)
-[![Bower version](https://badge.fury.io/bo/angular-stellar.png)](https://badge.fury.io/bo/angular-stellar)
+[![Version     ](https://img.shields.io/gem/v/angular-stellar.svg)                                  ](https://rubygems.org/gems/angular-stellar)
+[![Bower version](https://badge.fury.io/bo/angular-stellar.svg)                                     ](https://badge.fury.io/bo/angular-stellar)
 
 > Stellar.js directives for AngularJS  ( without jQuery dependency )
 
-[![Travis CI   ](https://img.shields.io/travis/tomchentw/angular-stellar/master.svg)             ](https://travis-ci.org/tomchentw/angular-stellar)
-[![Quality     ](https://img.shields.io/codeclimate/github/tomchentw/angular-stellar.svg)        ](https://codeclimate.com/github/tomchentw/angular-stellar)
-[![Coverage    ](https://img.shields.io/coveralls/tomchentw/angular-stellar.svg)                 ](https://coveralls.io/r/tomchentw/angular-stellar)
-[![Dependencies](https://img.shields.io/gemnasium/tomchentw/angular-stellar.svg)                 ](https://gemnasium.com/tomchentw/angular-stellar)
+[![Travis CI   ](https://travis-ci.org/tomchentw/angular-stellar.svg?branch=master)                 ](https://travis-ci.org/tomchentw/angular-stellar)
+[![Quality     ](https://img.shields.io/codeclimate/github/tomchentw/angular-stellar.svg)           ](https://codeclimate.com/github/tomchentw/angular-stellar)
+[![Coverage    ](https://img.shields.io/coveralls/tomchentw/angular-stellar.svg)                    ](https://coveralls.io/r/tomchentw/angular-stellar)
+[![Dependencies](https://gemnasium.com/tomchentw/angular-stellar.svg)                               ](https://gemnasium.com/tomchentw/angular-stellar)
 
 
 ## Project philosophy
@@ -36,6 +36,7 @@ Then include them through script tag in your HTML.
 
 ### **Rails** projects (Only support 3.1+)
 Add this line to your application's Gemfile:
+
 ```ruby
 gem 'angular-stellar'
 ```

@@ -1,13 +1,25 @@
 doctype html
-html(ng-app="demo")
+html(ng-app="application")
   head
-    meta(http-equiv='Content-Type', content='text/html; charset=utf-8')
+    meta(charset="utf-8")
+    meta(http-equiv="X-UA-Compatible" content="IE=edge")
     base(href="/")
     title angular-stellar
+    meta(name="description" content="Rewrite of Stellar.js native AngularJS directives without jQuery dependency")
     meta(name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0")
-    link(rel="stylesheet" href="/application.css")
-    script(type="text/javascript" defer src="/application.js")
+    meta(property="og:type" content="website")
+    meta(property="og:url" content="http://angular-stellar.tomchentw.com")
+    meta(property="og:title" content="angular-stellar")
+    meta(property="og:description" content="Rewrite of Stellar.js native AngularJS directives without jQuery dependency")
+
+    <!-- Place favicon.ico and apple-touch-icon(s) in the root directory -->
+
+    link(rel="stylesheet" href=stylesheetLinkTag("application.css"))
+    script(type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/modernizr/2.7.1/modernizr.min.js")
+    script(type="text/javascript" src=javascriptIncludeTag("application.js"))
   body
+    //- include partials/header
+
     ul#nav
       li
         a(href='#intro', title='Next Section')
@@ -78,3 +90,5 @@ html(ng-app="demo")
             a(href='http://www.sxc.hu/photo/1015485', title='Basketball Image') Basketball Image
           li
             a(href='http://www.sxc.hu/photo/563767', title='Bottles Image') Bottles Image
+
+    //- include partials/footer
